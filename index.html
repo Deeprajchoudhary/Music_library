@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="shortcut icon" href="Spotify-icon.ico.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="menuicon">
+            <img class="menu" src="menuicon.svg" alt="">
+        </div>
+        <div class="image">
+            <img  src="Spotify-icon.ico.webp" alt="Spotify">
+            <img class="homeicon" src="homeicon.svg" alt="Home">
+        </div>
+        <div class="searchbar">
+            <img src="searchicon.svg" alt="">
+            <input type="text" placeholder="What do you want to play ?">
+        </div>
+        <div class="links">
+            <button class="btn btn1">Premium</button>
+            <button class="btn btn2">Support</button>
+            <button class="btn btn3">Download</button>
+        </div>
+        <div class="user">
+            <button class="Signup">Signup</button>
+            <button class="login">Login</button>
+          
+        </div>
+    </nav>
+    <div class="container">
+        <div class="left">
+            <div class="leftheading">
+                <h2>Your Library</h2>
+            <img src="addicon.svg" alt="+">
+            </div>
+
+            <div class="CARD">
+
+            <div class="Librarycard">
+                <div class="card">
+                    <h3>Create your first playlist</h3>
+                    <h4>It's easy, we'll help you</h4>
+                    <button>Create playlist</button>
+                </div>
+            </div>
+
+             <!-- <div class="Librarycard">
+                <div class="card">
+                    <h3>Let's find some podcasts to follow</h3>
+                    <h4>we'll keep you updated on new episodes</h4>
+                    <button>Browse podcasts</button>
+                </div>
+            </div> -->
+
+            </div>
+            <div class="songlist">
+                <h3>play now</h3>
+                <!-- <div class="songdetails">
+                    <img src="musicicon.svg" alt="">
+                    <div>Song name</div>
+                    <div>Singer name</div>
+                    <img src="Playbutton.svg" alt="">
+
+                </div>
+                 <div class="songdetails">
+                    <img src="musicicon.svg" alt="">
+                    <div>Song name</div>
+                    <div>Singer name</div>
+                    <img src="Playbutton.svg" alt="">
+
+                </div> -->
+                 
+              
+            </div>
+            <div class="footerlinks">
+                <table>
+                    <ul>
+                        <li>Legal</li>
+                        <li>Seafty</li>
+                        <li>Privacy Policy</li>
+                        <li>cookies</li>
+                        <li>About Ads</li>
+                        <li>Accessablity</li>
+                        
+                    </ul>
+                </table>
+            </div>
+        </div>
+        <div class="right">
+            <div class="heading1">
+                <h1>Trending songs</h1>
+                <div class="songcontainer">
+
+                    
+                <div class="songcard" data-index="8" >
+                    <img src="levitating_image.webp" alt="">
+                    <h2>Levitating Featuring DaBaby</h2>
+                    <span>Dua Lipa</span>
+                    <div class="playbutton">
+                       <img src="Playbutton_black.svg" alt="">
+                    </div>
+                </div>
+               
+                <div class="songcard" data-index="9">
+                    <img height="300px" src="love me like you do_image.jpeg" alt="">
+                    <h2>Love Me Like You Do</h2>
+                    <span>Ellie Goulding</span>
+                    <div class="playbutton">
+                       <img src="Playbutton_black.svg" alt="">
+                    </div>
+                </div>
+                <div class="songcard" data-index="3">
+                    <img src="Baby_shark_image.png" alt="">
+                    <h2>Baby Shark</h2>
+                    <span>Hope Segoine</span>
+                    <div class="playbutton">
+                       <img src="Playbutton_black.svg" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <div class="songattributes">
+                <div class="songinfo"></div>
+                <div class="songbuttons">      
+                <img id="previous" src="playprevious.svg" alt="back">
+                <img id="play" src="paused.svg" alt="play">
+                <img id="next" src="playnext.svg" alt="next">
+                </div>
+                <div class="songtime"></div>
+                </div>
+            </div> 
+        </div>
+    </div> 
+    
+    <script src="script.js"></script>
+</body>
+</html>
