@@ -21,7 +21,7 @@ function formatTime(seconds) {
 }
 
 function Playmusic(trackname) {
-    currentsong.src = "http://127.0.0.1:3000/Spotify%20Clone/song/" + trackname + ".mp3";
+    currentsong.src = "./song/" + trackname + ".mp3";
     currentsong.play();
     document.querySelector(".songinfo").innerHTML = decodeURI(trackname);
     // document.querySelector(".songtime").innerHTML = "00:00 / 00:00";
@@ -29,7 +29,7 @@ function Playmusic(trackname) {
 }
 
 async function getsongs() {
-    let a = await fetch("http://127.0.0.1:3000/Spotify%20Clone/song/");
+    let a = await fetch("./song/");
     let response = await a.text(); 
     let div = document.createElement("div");
     div.innerHTML = response;
